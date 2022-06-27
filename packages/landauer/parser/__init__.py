@@ -7,9 +7,11 @@ import collections as cl
 from landauer import gates
 from landauer import graph
 
+
 class ParserException (Exception):
     """ Class to represent parser's exceptions """
     pass
+
 
 # Pre-compiled REGEXPs
 remove_newline_comment = re.compile(r"//.*")
@@ -18,13 +20,14 @@ norm_spaces = re.compile(r"\s*([{},;()&|=])\s*")
 gates_split = re.compile(r"[&|^]")
 
 parse_netlist = re.compile(r"^module ([^\s]+) \(([^;]*)\) ; "
-                        r"input ([^;]*) ; "
-                        r"output ([^;]*) ; "
-                        r"wire ([^;]*) ; "
-                        r"((?:.* ; )*?)"
-                        r"endmodule$")
+                           r"input ([^;]*) ; "
+                           r"output ([^;]*) ; "
+                           r"wire ([^;]*) ; "
+                           r"((?:.* ; )*?)"
+                           r"endmodule$")
 
-def remove_tilde (name):
+
+def remove_tilde(name):
     """ Removes the tilde (inversion) from a gate name """
 
     inv = False
@@ -32,12 +35,13 @@ def remove_tilde (name):
 
     # Inverts while there is a tilde
     while name[0] == "~":
-        name = name[ 1 : ].lstrip()
+        name = name[1:].lstrip()
         inv = not inv
 
     return name, inv
 
-def split (netlist):
+
+def split(netlist):
     """ Splits netlist into pieces """
     netlist = remove_newline_comment.sub("", netlist)
     netlist = norm_spaces.sub(r" \1 ", netlist)
@@ -57,14 +61,15 @@ def split (netlist):
         "exprs": list(filter(bool, map(str.strip, info.group(6).split(";"))))
     }
 
-def parse_structure (netlist):
+
+def parse_structure(netlist):
     """ Parses file structure into vertices of a graph """
 
     # Get pieces
     info = split(netlist)
 
     # Fetch inputs and nodes
-    inputs = ( graph.Input(n) for n in info["inputs"] )
+    inputs = (graph.Input(n) for n in info["inputs"])
     nodes = list(map(graph.Node, info["nodes"]))
 
     # Fetch outputs
@@ -85,7 +90,8 @@ def parse_structure (netlist):
     # Return graph and expressions
     return graph.Graph(it.chain(inputs, outputs, nodes)), info["exprs"]
 
-def parse_inputs (circuit, out, inputs):
+
+def parse_inputs(circuit, out, inputs):
     """ Parses inputs from a given gate """
 
     for name, inv in inputs:
@@ -101,7 +107,8 @@ def parse_inputs (circuit, out, inputs):
         out.add_input(inp, ipos, inv)
         inp.add_output(out, opos, inv)
 
-def parse_expression (expr, node_map):
+
+def parse_expression(expr, node_map):
     """ Parses a gate's expression """
 
     # Get left and right operand
@@ -155,11 +162,12 @@ def parse_expression (expr, node_map):
             arg, new_inv = node_map[arg]
             inv = inv ^ new_inv
 
-        args[i] = ( arg, inv )
+        args[i] = (arg, inv)
 
     return gate, output, args
 
-def parse_logic (nodes, circuit):
+
+def parse_logic(nodes, circuit):
     """ Create the circuit's graph's edges """
 
     for gate, output, args in nodes:
@@ -172,13 +180,14 @@ def parse_logic (nodes, circuit):
         except KeyError:
             raise ParserException("Unknown output node `{}`.".format(output))
 
-def parse_expressions (circuit, exprs):
+
+def parse_expressions(circuit, exprs):
     """ Parse the circuit's expressions """
 
     # Fill list of nodes
     nodes = []
     node_map = {
-        "1": ( "0", True ), "1'b1": ( "0", True ), "1'b0": ( "0", False )
+        "1": ("0", True), "1'b1": ("0", True), "1'b0": ("0", False)
     }
 
     # Create 0 fixed gate (it will be removed if not needed)
@@ -190,7 +199,8 @@ def parse_expressions (circuit, exprs):
     # Build the graph's edges
     parse_logic(nodes, circuit)
 
-def parse (netlist):
+
+def parse(netlist):
     """ Call all parsing functions """
 
     start_time = time.time()

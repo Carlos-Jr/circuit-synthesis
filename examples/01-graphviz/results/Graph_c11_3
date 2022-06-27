@@ -1,0 +1,763 @@
+graph {
+  graph [
+    "bgcolor"     = "transparent",
+    "dpi"         = "300",
+    "ordering"    = "out",
+    "outputorder" = "edgesfirst",
+    "rankdir"     = "LR"
+  ];
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "source"
+    ];
+    "x0" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "x1" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "x2" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "x3" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "x4" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "x5" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "x6" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "I",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n14" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n15" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n18" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n23" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n24" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n27" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n33" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n8" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n9" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n10" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n16" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n25" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n11" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n12" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n17" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n13" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n19" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n20" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n21" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n26" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n22" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n28" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n29" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n30" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n32" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "same"
+    ];
+    "n31" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+    "n34" [
+      "fillcolor" = "#ffffff",
+      "label"     = "AND",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.2"
+    ];
+  }
+  {
+    graph [
+      "bgcolor" = "black",
+      "rank"    = "sink"
+    ];
+    "o-0" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "O",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "o-1" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "O",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "o-2" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "O",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+    "o-3" [
+      "fillcolor" = "#000000",
+      "fontcolor" = "#ffffff",
+      "label"     = "O",
+      "penwidth"  = "0",
+      "shape"     = "circle",
+      "style"     = "filled",
+      "width"     = "0.15"
+    ];
+  }
+  "n10" -- "n11" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "n10" -- "n12" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n10" -- "n17" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n11" -- "n13" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n12" -- "n13" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n13" -- "o-0" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n14" -- "n16" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n15" -- "n16" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n16" -- "n20" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "n16" -- "n21" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n16" -- "n26" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n17" -- "n19" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n18" -- "n19" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n19" -- "n20" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n19" -- "n21" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "n19" -- "n26" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n20" -- "n22" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n21" -- "n22" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n22" -- "o-1" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n23" -- "n25" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n24" -- "n25" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n25" -- "n29" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "n25" -- "n30" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n25" -- "n32" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n26" -- "n28" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n27" -- "n28" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n28" -- "n29" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n28" -- "n30" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "n28" -- "n32" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n29" -- "n31" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n30" -- "n31" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n31" -- "o-2" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n32" -- "n34" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n33" -- "n34" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n34" -- "o-3" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n8" -- "n10" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "n9" -- "n10" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x0" -- "n18" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x0" -- "n8" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x0" -- "n9" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x1" -- "n14" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x1" -- "n15" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x1" -- "n27" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x2" -- "n23" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x2" -- "n24" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x2" -- "n33" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x3" -- "n18" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x3" -- "n8" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x3" -- "n9" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x4" -- "n14" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x4" -- "n15" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x4" -- "n27" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x5" -- "n23" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x5" -- "n24" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x5" -- "n33" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x6" -- "n11" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+  "x6" -- "n12" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "dashed"
+  ];
+  "x6" -- "n17" [
+    "arrowsize" = "0.4",
+    "color"     = "#00000032",
+    "fillcolor" = "#000000",
+    "penwidth"  = "4.0",
+    "style"     = "solid"
+  ];
+}
