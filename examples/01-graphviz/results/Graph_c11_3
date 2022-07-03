@@ -8,8 +8,9 @@ graph {
   ];
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "source"
+      "color" = "lightgrey",
+      "rank"  = "source",
+      "style" = "filled"
     ];
     "x0" [
       "fillcolor" = "#000000",
@@ -77,8 +78,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n14" [
       "fillcolor" = "#ffffff",
@@ -146,8 +148,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n10" [
       "fillcolor" = "#ffffff",
@@ -173,8 +176,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n11" [
       "fillcolor" = "#ffffff",
@@ -200,8 +204,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n13" [
       "fillcolor" = "#ffffff",
@@ -220,8 +225,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n20" [
       "fillcolor" = "#ffffff",
@@ -247,8 +253,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n22" [
       "fillcolor" = "#ffffff",
@@ -267,8 +274,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n29" [
       "fillcolor" = "#ffffff",
@@ -294,8 +302,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "same"
+      "color" = "lightgrey",
+      "rank"  = "same",
+      "style" = "filled"
     ];
     "n31" [
       "fillcolor" = "#ffffff",
@@ -314,8 +323,9 @@ graph {
   }
   {
     graph [
-      "bgcolor" = "black",
-      "rank"    = "sink"
+      "color" = "lightgrey",
+      "rank"  = "sink",
+      "style" = "filled"
     ];
     "o-0" [
       "fillcolor" = "#000000",

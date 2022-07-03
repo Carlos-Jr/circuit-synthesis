@@ -495,9 +495,10 @@ class Graph (object):
 
         # Iterate over ranks
         for i, (rank, nodes, last) in enumerate(self.ranks()):
-            print("On rank ", rank)
             graph.add_subgraph({
-                "rank": ("source" if i == 0 else ("sink" if last else "same"))
+                "rank": ("source" if i == 0 else ("sink" if last else "same")),
+                "style": "filled",
+                "color": "lightgrey"
             })
 
             for node in nodes:
