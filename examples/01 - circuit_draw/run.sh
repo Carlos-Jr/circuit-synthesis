@@ -1,2 +1,2 @@
 export PYTHONPATH="../../packages${PYTHONPATH+":$PYTHONPATH"}"
-python graphs.py
+python circuit_draw.py
