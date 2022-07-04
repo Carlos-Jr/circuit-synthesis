@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw
 
 def draw_with_pipelines(verilog_file, pipeline_cuts, max_pipeline_cuts, file_out):
     netlist = Path(verilog_file).read_text()
-
+    max_pipeline_cuts -= 2  # Menos as entradas e saídas
     circuit, parse_time = parser.parse(netlist)
     original_tree = io.StringIO()
     ir_time = circuit.save_tree(original_tree)

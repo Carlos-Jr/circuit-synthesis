@@ -6,7 +6,7 @@ circuit_type = "c11"
 circuit__n_inputs = 3
 
 pipeline_cuts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-max_pipeline_cuts = 8
+max_pipeline_cuts = 10
 
 verilog_file = folder+circuit_type+"_"+str(circuit__n_inputs)+".balanced.aig.v"
 
